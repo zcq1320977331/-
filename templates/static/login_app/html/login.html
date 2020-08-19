@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录界面</title>
+        <link rel="icon" href="/static/login_app/images/login_bg.jpg">
+        <link rel="stylesheet" type="text/css" href="/static/public/css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="/static/login_app/css/login_style.css" />
+	</head>
+	<body>
+		<div class="login-page">
+			<div class="login_form">
+				<div class="form">
+					<div class="login_box">
+						<div class="welcome ">欢迎登陆</div>
+
+                        <div class="username frame">
+                            <div class="username-icon icon-frame">
+                                <i class="iconfont icon-size">&#xe640;</i>
+                            </div>
+                            <input type="text" name="username" placeholder="请输入用户名" class="username-input info-input">
+                        </div>
+
+                        <div class="password frame">
+                            <div class="password-icon icon-frame">
+                                <i class="iconfont icon-size">&#xe66c;</i>
+                            </div>
+                            <input type="text" name="password" placeholder="请输入密码" class="password-input info-input">
+                        </div>
+                        <div id = "yzm" class="YZM frame">
+                                <div class="box">
+                                    <div class="YZM-icon icon-frame">
+                                        <i class="iconfont icon-size">&#xe623;</i>
+                                    </div>
+                                <input type="text" name="YZM" placeholder="请输入验证码" class="YZM-input">
+                                </div>
+                            <div class="yzm_png">
+                                    <img src="/static/login_app/images/yanzhengma.png"/>
+                            </div>
+                            </div>
+                        <div class="foot">
+                            <a href="">
+                                <button type="button"  class="login">登录</button>
+                            </a>
+{#                            <a href="/static/login_app/html/register.html">#}
+                            <a href="/user/register/">
+
+                                <button type="button" class="register">注册</button>
+                            </a>
+                        </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

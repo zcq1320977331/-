@@ -1,0 +1,38 @@
+
+.fontsize{
+    font-size: 100px;
+}
+body,div,h1{
+    padding: 0;
+    margin: 0;
+}
+#box{
+    background-color: green;
+    /*overflow: hidden;      清除浮动影响*/
+}
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+}
+.box2{
+    background-color: yellow;
+    height: 200px;
+    width: 100px;
+    float: left;
+}
+.box3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+/*.clearfix:after{!*清除浮动*!*/
+    /*content: '.';!*变行内*!*/
+    /*clear: both;!*清除浮动主代码*!*/
+    /*display: block;!*变块*!*/
+    /*visibility: hidden;!*隐藏元素*!*/
+    /*height: 0;!*清除隐藏元素占的位置*!*/
+/*}*/

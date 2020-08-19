@@ -1,0 +1,135 @@
+*{margin: 0; padding: 0; font-family: "黑体";}
+.login-page{
+    display: flex;
+	width: 100%;
+	height: 100%;
+    background: url(../images/login_bg.jpg) center center;
+	background-attachment: fixed;
+	min-width: 600px;
+    min-height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.login_form{
+    margin: 0 auto;
+	background-attachment: fixed;
+	width: 100%;
+	min-width: 300px;
+	padding-top: 150px;
+	border-radius: 5px;
+}
+.form{
+    margin: 0 auto;
+    border-radius:20px;
+	width: 450px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+}
+.welcome{
+    color: orangered;
+    font-weight: 900;
+    font-size: 40px;
+    height: 40px;
+    text-align: center;
+}
+.frame {
+    margin: 0 auto;
+    border-radius:6px;
+    margin-top: 48px;
+    border: 1px solid rgb(178,178,178);
+    height: 48px;width: 400px;
+    overflow: hidden;
+}
+.icon-frame{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    float: left;
+}
+.info-input{
+    width: 352px;
+    height: 100%;
+    float: left;
+    border: none;
+    margin-left: 48px;
+}
+.icon-frame{
+    line-height: 48px;
+    text-align: center;
+}
+#yzm{
+    height: 48px;width: 400px;
+    border: none;
+    overflow: hidden;
+}
+.box{
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgb(178,178,178);
+    height: 48px;
+    float: left;
+}
+
+.YZM-input{
+    margin-left: 48px;
+    border: none;
+    float: left;
+    height: 48px;
+    width: 182px;
+}
+
+.yzm_png{
+    float: right;
+    height: 48px;
+    width: 100px;
+}
+img{
+    height: 48px;
+    width: 100px;
+}
+input{
+    background: rgba(255,255,255,0.8);
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.login,.register{
+	background:orangered;
+}
+.foot{
+    height: 40px;width: 330px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.foot a{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.login {
+    margin-left: 10px;
+}
+.register{
+	margin-right: 10px;
+    float: right;
+}
+.register:hover,.login:hover{
+    background: #d0201e;
+}
+button{
+    border-radius:15px;
+    width: 120px;
+    height: 50px;
+    border: none;
+}
